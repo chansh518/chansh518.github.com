@@ -6,9 +6,9 @@ paginate: 8
 safe: false
 
 #站点基础配置
-title: Violet
+title: Chansh
 subTitle: Keep on writing.
-description:  
+description: 使用Jekyll搭建的个人博客，使用了zhanxin.lin开发和设计的Violet 2模板
 url: http://chansh.tk
 feed: /atom.xml
 
@@ -16,14 +16,12 @@ feed: /atom.xml
 nav:
   - text: 首页
     url: /index.html
+  - text: 分类目录
+    url: /categories.html
   - text: 文章归档
     url: /archives.html
-  - text: 作品
-    url: /works.html
-  - text: 联系我
-    url: http://www.zhanxin.info/contact.html
-  - text: 博客源代码
-    url: https://github.com/pizn/pizn.github.com
+  - text: 关于我
+    url: /contact.html
 
 #theme config
 themes: /themes/violet
@@ -38,32 +36,32 @@ headimg:
 #关注我
 follow:
   - class: fa-google-plus
-    url: http://www.zhanxin.info
+    url:
   - class: fa-facebook
-    url: http://www.zhanxin.info
+    url: 
   - class: fa-github
-    url: http://github.com/pizn
+    url: 
   - class: fa-weibo
-    url: http://weibo.com/pizner
+    url: 
   - class: fa-renren
-    url: http://www.zhanxin.info
+    url: 
   - class: fa-pinterest
-    url: http://www.zhanxin.info
+    url: 
   - class: fa-twitter
-    url: http://www.zhanxin.info
+    url: 
   - class: fa-rss
-    url: http://www.zhanxin.info
+    url: 
 
 #作者信息
 author:
-  link: http://www.zhanxin.info/contact.html
+  link: /contact.html
   img: http://tp2.sinaimg.cn/1832671293/180/40020872447/1
 
 #评论信息
 disqus:
-  config: true
+  config: false 
   id: chansh
 
 duoshuo:
-  config: false
+  config: true
   id: chansh

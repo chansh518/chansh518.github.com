@@ -11,10 +11,10 @@ html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,categories {
     margin:0;padding:0;
 }
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,categories {
     display:block;
 }
 audio,canvas,video {
@@ -524,6 +524,26 @@ a:hover {
 .main-article .article-year li a:hover {
     text-decoration: underline;
     color: #0088cc;
+}
+
+.categories {
+	width: 100%;
+	overflow: hidden;
+	margin: 20px 0;
+	padding-left: 0;
+}
+
+.categories .categories-item {
+	list-style-type: none;
+	background: #99b9c4;
+	color: #fff;
+	margin-right: 10px;
+	padding: 3px 20px;
+	float: left;
+}
+
+.categories .categories-item a{
+	color: #fff;
 }
 /* =Other
 --------------------------------------*/
