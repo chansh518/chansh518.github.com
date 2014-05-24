@@ -545,6 +545,31 @@ a:hover {
 .categories .categories-item a{
 	color: #fff;
 }
+
+.links-list {
+	width: 100%;
+	clear: both;
+	list-style-type: none;
+	padding: 0 0;
+}
+
+.links-list li {
+	width: 40%;
+	background: #99b9c4;
+	margin: 0 10% 10px 0;
+	padding: 0 0;
+	float: left;
+}
+
+.links-list li a {
+	display: block;
+	line-height: 32px;
+	height: 32px;
+	padding: 0 10px;
+	color: #fff;
+}
+
+
 /* =Other
 --------------------------------------*/
 .comment {
