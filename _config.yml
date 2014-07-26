@@ -39,7 +39,6 @@ themes: /themes/violet
 
 #配置你喜欢的顶部背景图片
 headimg:
-  - item: /themes/violet/images/hdbg01.jpg
   - item: /themes/violet/images/hdbg02.jpg
   - item: /themes/violet/images/hdbg03.jpg
   - item: /themes/violet/images/hdbg04.jpg
