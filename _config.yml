@@ -9,7 +9,7 @@ safe: false
 title: Chansh
 subTitle: Keep on writing.
 description: 使用Jekyll搭建的个人博客，使用了zhanxin.lin开发和设计的Violet 2模板
-url: http://chansh518.gitcafe.io
+url: http://chansh518.github.io
 feed: /atom.xml
 
 #菜单配置
