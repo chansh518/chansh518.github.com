@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Deep Learning深度学习（二）：反向传播"
-description: "神经网络的训练目标是最小化目标函数$$C$$，使用梯度下降的方法来训练参数$$w$$和$$b$$。在梯度下降中，需要根据$$\frac{\partial C}{\partial w}$$和$$\frac{\partial C}{\partial b}$$的计算结果来决定参数$$w$$和$$b$$的改变幅度。反向传播便提供了一种计算偏导的方法。"
+description: "神经网络的训练目标是最小化目标函数C，使用梯度下降的方法来训练参数。在梯度下降中，需要根据目标函数对参数的偏导来决定参数的改变幅度。反向传播便提供了一种计算偏导的方法。"
 category: "Deep Learning"
 tags: Deep Learning, Backpropagation
 ---
